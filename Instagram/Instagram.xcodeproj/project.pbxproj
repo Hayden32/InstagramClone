@@ -29,6 +29,10 @@
 		EF10E3132358DAEB00AC3F4E /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF10E3122358DAEB00AC3F4E /* ActivityViewController.swift */; };
 		EF4C5502235E843200D0E45C /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C5500235E843200D0E45C /* StoriesTableViewCell.swift */; };
 		EF4C5503235E843200D0E45C /* StoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */; };
+		EF4C5506235FB88000D0E45C /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */; };
+		EF4C5507235FB88000D0E45C /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */; };
+		EF4C552B23625B9100D0E45C /* FeedableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedableViewCell.swift */; };
+		EF4C552C23625B9100D0E45C /* FeedableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,10 @@
 		EF10E3122358DAEB00AC3F4E /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		EF4C5500235E843200D0E45C /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
 		EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesTableViewCell.xib; sourceTree = "<group>"; };
+		EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF4C552923625B9100D0E45C /* FeedableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedableViewCell.swift; sourceTree = "<group>"; };
+		EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +175,10 @@
 			children = (
 				EF4C5500235E843200D0E45C /* StoriesTableViewCell.swift */,
 				EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */,
+				EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */,
+				EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */,
+				EF4C552923625B9100D0E45C /* FeedableViewCell.swift */,
+				EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,10 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4C552C23625B9100D0E45C /* FeedableViewCell.xib in Resources */,
 				EF10E3062358DA3700AC3F4E /* Profile.storyboard in Resources */,
 				EF10E3042358DA2E00AC3F4E /* NewPost.storyboard in Resources */,
 				EF10E3002358DA1700AC3F4E /* Home.storyboard in Resources */,
 				EF10E2E62358D6AB00AC3F4E /* LaunchScreen.storyboard in Resources */,
+				EF4C5507235FB88000D0E45C /* StoryCollectionViewCell.xib in Resources */,
 				EF10E3082358DA4200AC3F4E /* Activity.storyboard in Resources */,
 				EF4C5503235E843200D0E45C /* StoriesTableViewCell.xib in Resources */,
 				EF10E3022358DA2500AC3F4E /* Search.storyboard in Resources */,
@@ -251,12 +265,14 @@
 				EF10E30D2358DACD00AC3F4E /* SearchViewController.swift in Sources */,
 				EF10E2FC2358D87E00AC3F4E /* ActivityData.swift in Sources */,
 				EF10E2DA2358D6AA00AC3F4E /* AppDelegate.swift in Sources */,
+				EF4C552B23625B9100D0E45C /* FeedableViewCell.swift in Sources */,
 				EF10E2FE2358D87E00AC3F4E /* UserData.swift in Sources */,
 				EF10E2F72358D7BB00AC3F4E /* SimpleCameraView.swift in Sources */,
 				EF10E3112358DAE300AC3F4E /* ProfileViewController.swift in Sources */,
 				EF10E2FD2358D87E00AC3F4E /* FeedData.swift in Sources */,
 				EF10E3132358DAEB00AC3F4E /* ActivityViewController.swift in Sources */,
 				EF10E30B2358DAC000AC3F4E /* HomeViewController.swift in Sources */,
+				EF4C5506235FB88000D0E45C /* StoryCollectionViewCell.swift in Sources */,
 				EF10E2F52358D7BB00AC3F4E /* SimpleCamera.swift in Sources */,
 				EF10E2F62358D7BB00AC3F4E /* SimpleCameraProtocol.swift in Sources */,
 				EF10E2DC2358D6AA00AC3F4E /* SceneDelegate.swift in Sources */,

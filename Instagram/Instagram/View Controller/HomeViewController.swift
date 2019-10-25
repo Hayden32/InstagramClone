@@ -16,7 +16,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     lazy var posts: [Post] = {
         let model = Model()
         return model.postList
-    }
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()

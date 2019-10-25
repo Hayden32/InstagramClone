@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StoryCollectionViewCell" id="gTV-IL-0wX" customClass="StoryCollectionViewCell" customModule="Instagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K8c-CO-bpu">
+                        <rect key="frame" x="8" y="0.0" width="74" height="74"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="K8c-CO-bpu" secondAttribute="height" multiplier="1:1" id="994-NK-M9F"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-wm-oKX">
+                        <rect key="frame" x="8" y="82" width="74" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aSf-wm-oKX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="AQS-E2-tCl"/>
+                <constraint firstItem="K8c-CO-bpu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="HFx-BW-1sR"/>
+                <constraint firstAttribute="trailing" secondItem="aSf-wm-oKX" secondAttribute="trailing" constant="8" id="diW-ro-C1M"/>
+                <constraint firstAttribute="trailing" secondItem="K8c-CO-bpu" secondAttribute="trailing" constant="8" id="kIC-fG-jBl"/>
+                <constraint firstItem="aSf-wm-oKX" firstAttribute="top" secondItem="K8c-CO-bpu" secondAttribute="bottom" constant="8" id="oDU-M7-Dml"/>
+                <constraint firstItem="K8c-CO-bpu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="q1g-qX-SSY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="storyImage" destination="K8c-CO-bpu" id="ebK-OT-yb0"/>
+                <outlet property="userNameLabel" destination="aSf-wm-oKX" id="Equ-O2-2mJ"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="153"/>
+        </collectionViewCell>
+    </objects>
+</document>
