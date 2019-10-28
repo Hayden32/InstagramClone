@@ -31,7 +31,7 @@
 		EF4C5503235E843200D0E45C /* StoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */; };
 		EF4C5506235FB88000D0E45C /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */; };
 		EF4C5507235FB88000D0E45C /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */; };
-		EF4C552B23625B9100D0E45C /* FeedableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedableViewCell.swift */; };
+		EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */; };
 		EF4C552C23625B9100D0E45C /* FeedableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +62,7 @@
 		EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoriesTableViewCell.xib; sourceTree = "<group>"; };
 		EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
-		EF4C552923625B9100D0E45C /* FeedableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedableViewCell.swift; sourceTree = "<group>"; };
+		EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,7 +177,7 @@
 				EF4C5501235E843200D0E45C /* StoriesTableViewCell.xib */,
 				EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */,
 				EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */,
-				EF4C552923625B9100D0E45C /* FeedableViewCell.swift */,
+				EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */,
 				EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */,
 			);
 			path = Views;
@@ -265,7 +265,7 @@
 				EF10E30D2358DACD00AC3F4E /* SearchViewController.swift in Sources */,
 				EF10E2FC2358D87E00AC3F4E /* ActivityData.swift in Sources */,
 				EF10E2DA2358D6AA00AC3F4E /* AppDelegate.swift in Sources */,
-				EF4C552B23625B9100D0E45C /* FeedableViewCell.swift in Sources */,
+				EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */,
 				EF10E2FE2358D87E00AC3F4E /* UserData.swift in Sources */,
 				EF10E2F72358D7BB00AC3F4E /* SimpleCameraView.swift in Sources */,
 				EF10E3112358DAE300AC3F4E /* ProfileViewController.swift in Sources */,

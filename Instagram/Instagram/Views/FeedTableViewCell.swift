@@ -1,5 +1,5 @@
 //
-//  FeedableViewCell.swift
+//  FeedTableViewCell.swift
 //  Instagram
 //
 //  Created by Hayden Hastings on 10/24/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedableViewCell: UITableViewCell {
+class FeedTableViewCell: UITableViewCell {
 
     // MARK: - Outlets
     @IBOutlet weak var profileImageView: UIImageView!
