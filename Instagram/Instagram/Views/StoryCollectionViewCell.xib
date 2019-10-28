@@ -30,7 +30,7 @@
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="aSf-wm-oKX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="AQS-E2-tCl"/>
                 <constraint firstItem="K8c-CO-bpu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="HFx-BW-1sR"/>
@@ -44,7 +44,7 @@
                 <outlet property="storyImage" destination="K8c-CO-bpu" id="ebK-OT-yb0"/>
                 <outlet property="userNameLabel" destination="aSf-wm-oKX" id="Equ-O2-2mJ"/>
             </connections>
-            <point key="canvasLocation" x="139" y="153"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
         </collectionViewCell>
     </objects>
 </document>

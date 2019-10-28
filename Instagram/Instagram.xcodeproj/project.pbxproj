@@ -32,7 +32,7 @@
 		EF4C5506235FB88000D0E45C /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */; };
 		EF4C5507235FB88000D0E45C /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */; };
 		EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */; };
-		EF4C552C23625B9100D0E45C /* FeedableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */; };
+		EF4C552C23625B9100D0E45C /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +63,7 @@
 		EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
-		EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedableViewCell.xib; sourceTree = "<group>"; };
+		EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 				EF4C5504235FB88000D0E45C /* StoryCollectionViewCell.swift */,
 				EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */,
 				EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */,
-				EF4C552A23625B9100D0E45C /* FeedableViewCell.xib */,
+				EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4C552C23625B9100D0E45C /* FeedableViewCell.xib in Resources */,
+				EF4C552C23625B9100D0E45C /* FeedTableViewCell.xib in Resources */,
 				EF10E3062358DA3700AC3F4E /* Profile.storyboard in Resources */,
 				EF10E3042358DA2E00AC3F4E /* NewPost.storyboard in Resources */,
 				EF10E3002358DA1700AC3F4E /* Home.storyboard in Resources */,
