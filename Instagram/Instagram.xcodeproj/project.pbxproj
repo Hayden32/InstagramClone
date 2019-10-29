@@ -33,6 +33,7 @@
 		EF4C5507235FB88000D0E45C /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */; };
 		EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */; };
 		EF4C552C23625B9100D0E45C /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */; };
+		EF4C55542368EEC300D0E45C /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				EF4C5505235FB88000D0E45C /* StoryCollectionViewCell.xib */,
 				EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */,
 				EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */,
+				EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				EF10E30B2358DAC000AC3F4E /* HomeViewController.swift in Sources */,
 				EF4C5506235FB88000D0E45C /* StoryCollectionViewCell.swift in Sources */,
 				EF10E2F52358D7BB00AC3F4E /* SimpleCamera.swift in Sources */,
+				EF4C55542368EEC300D0E45C /* ExploreCollectionViewCell.swift in Sources */,
 				EF10E2F62358D7BB00AC3F4E /* SimpleCameraProtocol.swift in Sources */,
 				EF10E2DC2358D6AA00AC3F4E /* SceneDelegate.swift in Sources */,
 				EF4C5502235E843200D0E45C /* StoriesTableViewCell.swift in Sources */,
