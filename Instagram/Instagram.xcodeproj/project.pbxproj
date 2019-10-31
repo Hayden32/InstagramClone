@@ -34,6 +34,7 @@
 		EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */; };
 		EF4C552C23625B9100D0E45C /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */; };
 		EF4C55542368EEC300D0E45C /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */; };
+		EF4C5556236B73C900D0E45C /* SearchBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C5555236B73C900D0E45C /* SearchBarContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4C5555236B73C900D0E45C /* SearchBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				EF4C552923625B9100D0E45C /* FeedTableViewCell.swift */,
 				EF4C552A23625B9100D0E45C /* FeedTableViewCell.xib */,
 				EF4C55532368EEC300D0E45C /* ExploreCollectionViewCell.swift */,
+				EF4C5555236B73C900D0E45C /* SearchBarContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				EF10E2DA2358D6AA00AC3F4E /* AppDelegate.swift in Sources */,
 				EF4C552B23625B9100D0E45C /* FeedTableViewCell.swift in Sources */,
 				EF10E2FE2358D87E00AC3F4E /* UserData.swift in Sources */,
+				EF4C5556236B73C900D0E45C /* SearchBarContainerView.swift in Sources */,
 				EF10E2F72358D7BB00AC3F4E /* SimpleCameraView.swift in Sources */,
 				EF10E3112358DAE300AC3F4E /* ProfileViewController.swift in Sources */,
 				EF10E2FD2358D87E00AC3F4E /* FeedData.swift in Sources */,
